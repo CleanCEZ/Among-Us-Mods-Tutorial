@@ -29,7 +29,7 @@ Les mods se trouvent sur :
 
 ## 3. Installer le mod
 
-1. Le mod se présente généralement sous forme de fichier `.dll` ou de `.zip`
+Les mods se présentent généralement sous forme de fichier `.dll` ou de `.zip`
 
 Si il sagit d'un .zip il est generalemnt conseillé de creer une copie de son dossier "Among Us" qui se trouve dans (`C:\Program Files (x86)\Steam\steamapps\common\`) puis d'en extraire les contenue dans le dossier de "Among Us"
 
@@ -37,9 +37,18 @@ Si il sagit d'un `.dll` il faut aussi installer en Installer BepInEx
 BepInEx est indispensable : c'est lui qui permet de charger les mods.
 
 1. Va sur github.com/BepInEx/BepInEx/releases
-2. Télécharge la version BepInEx_x64 (pour Windows 64-bit)
+2. Télécharge la version BepInEx_x64
 3. Extrais le contenu du .zip directement dans le dossier du jeu
 4. Lance Among Us une première fois pour que BepInEx génère ses fichiers de configuration
 5. Ferme le jeu
+
+## Désinstaller un mod
+
+Si il sagit d'un dll Il suffit de supprimer le fichier `.dll` correspondant dans BepInEx/plugins/.
+Pour désinstaller complètement BepInEx, supprime les fichiers et dossiers ajoutés à la racine du jeu (BepInEx/, doorstop_config.ini, winhttp.dll).
+Si il sagit d'un `.zip ` suprimmez les fichiers et doosier qui etait compris dans celui ci.
+
+<img width="1024" height="1024" alt="764649d3-0066-4997-9772-fd81901ef987" src="https://github.com/user-attachments/assets/18f26eb8-3a0b-4e40-a5c0-e9ce15ecc3a7" />
+
 
 
