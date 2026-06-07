@@ -27,31 +27,10 @@ Les mods se trouvent sur :
 - [CurseForge](https://www.curseforge.com/)
 - [Gamebanana](https://gamebanana.com/)
 
-## Étape 4 — Installer le mod
+## 3. Installer le mod
 
 1. Le mod se présente généralement sous forme de fichier `.dll` ou de `.zip`
 
-⚠️ Si il sagit d'un .zip il est generalemnt conseillé de creer une copie de son dossier "Among US" qui se trouve dans 
-(`C:\Program Files (x86)\Steam\steamapps\common\Among Us`)
+Si il sagit d'un .zip il est generalemnt conseillé de creer une copie de son dossier "Among US" qui se trouve dans (`C:\Program Files (x86)\Steam\steamapps\common\`)
 
 
-
-
-
----
-
-## Étape 5 — Lancer le jeu
-
-1. Lance Among Us normalement via Steam
-2. BepInEx charge automatiquement les mods présents dans le dossier `plugins`
-3. Si le mod a été détecté, il apparaît généralement dans le menu principal du jeu
-
----
-
-## Désinstaller un mod
-
-Il suffit de **supprimer le fichier `.dll`** correspondant dans `BepInEx/plugins/`.
-
-Pour désinstaller **complètement BepInEx**, supprime les fichiers et dossiers ajoutés à la racine du jeu (`BepInEx/`, `doorstop_config.ini`, `winhttp.dll`).
-
----
