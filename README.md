@@ -1,4 +1,4 @@
-> 🇫🇷 Vous ne comprenez pas l'anglais ? Vous êtes francophone ? Regardez le [*LISEZ-MOI* français](./README-FR.md) ! 🇫🇷
+> Vous preferez la version Française [*README* français](./README-FR.md) !
 
 # Among Us — Mod Installation Guide (Steam)
 
