@@ -1,54 +1,53 @@
-# tuto-mods-steam
+# Among Us — Mod Installation Guide (Steam)
 
-## Prérequis
+## Prerequisites
+- Among Us installed via Steam
 
-- Among Us installé via Steam
+## 1. Find the game folder
 
-## 1. Trouver le dossier
+1. Right-click on **Among Us** in Steam
+2. Click **Properties** → **Local Files** → **Browse local files**
+3. A window opens at: `C:\Program Files (x86)\Steam\steamapps\common\Among Us`
 
-1. Fais un clic droit sur **Among Us**
-2. Clique sur **Propriétés** puis **Fichiers locaux** puis **Parcourir les fichiers locaux**
-3. Une fenêtre s'ouvre avec le dossier du jeu (`C:\Program Files (x86)\Steam\steamapps\common\Among Us`)
+> ⚠️ Some mods are made for an older version of Among Us.
+> To downgrade to a previous version:
+> 1. Right-click Among Us → Properties
+> 2. Go to the **Betas** tab
+> 3. Select **public-previous**
 
-⚠️ Certain mods sont fait pour une version plus ancienne d'Among Us.
-Pour cela il faut revenir a une version  plus ancienne de Among Us:
+## 2. Download a mod
 
-1. Clic droit sur Among Us puis Propriétés
-2. Onglet Bêtas
-3. selectionner "public-previous"
-
-<img width="1036" height="735" alt="Capture d’écran 2026-06-07 141435" src="https://github.com/user-attachments/assets/9352e246-849d-4419-9752-c4052224f968" />
-
-## 2. Télécharger un mod
-
-Les mods se trouvent sur :
-
+Mods can be found on:
 - [GitHub](https://github.com)
 - [CurseForge](https://www.curseforge.com/)
 - [Gamebanana](https://gamebanana.com/)
 
-## 3. Installer le mod
+## 3. Install the mod
 
-Les mods se présentent généralement sous forme de fichier `.dll` ou de `.zip`
+Mods usually come as a `.dll` or `.zip` file.
 
-Si il sagit d'un .zip il est generalemnt conseillé de creer une copie de son dossier "Among Us" qui se trouve dans (`C:\Program Files (x86)\Steam\steamapps\common\`) puis d'en extraire les contenue dans le dossier de "Among Us"
+**If it's a .zip:**
+It is generally recommended to first make a backup copy of your Among Us folder located at `C:\Program Files (x86)\Steam\steamapps\common\`, then extract the contents of the zip directly into the Among Us folder.
 
-Si il sagit d'un `.dll` il faut aussi installer en Installer BepInEx
-BepInEx est indispensable : c'est lui qui permet de charger les mods.
+**If it's a .dll:**
+You also need to install **BepInEx** — it is the framework that allows mods to load.
 
-1. Va sur github.com/BepInEx/BepInEx/releases
-2. Télécharge la version BepInEx_x64
-3. Extrais le contenu du .zip directement dans le dossier du jeu
-4. Lance Among Us une première fois pour que BepInEx génère ses fichiers de configuration
-5. Ferme le jeu
+1. Go to [github.com/BepInEx/BepInEx/releases](https://github.com/BepInEx/BepInEx/releases)
+2. Download the **BepInEx_x64** version
+3. Extract the contents of the .zip directly into the game folder
+4. Launch Among Us once so BepInEx generates its configuration files
+5. Close the game
+6. Place your `.dll` mod file in `BepInEx/plugins/`
 
-## Désinstaller un mod
+## Uninstalling a mod
 
-Si il sagit d'un dll Il suffit de supprimer le fichier `.dll` correspondant dans BepInEx/plugins/.
-Pour désinstaller complètement BepInEx, supprime les fichiers et dossiers ajoutés à la racine du jeu (BepInEx/, doorstop_config.ini, winhttp.dll).
-Si il sagit d'un `.zip ` suprimmez les fichiers et doosier qui etait compris dans celui ci.
+**If it was a .dll:**
+Simply delete the corresponding `.dll` file in `BepInEx/plugins/`.
 
-<img width="1024" height="1024" alt="764649d3-0066-4997-9772-fd81901ef987" src="https://github.com/user-attachments/assets/18f26eb8-3a0b-4e40-a5c0-e9ce15ecc3a7" />
+To fully remove BepInEx, delete the files and folders added to the game root:
+- `BepInEx/`
+- `doorstop_config.ini`
+- `winhttp.dll`
 
-
-
+**If it was a .zip:**
+Delete the files and folders that were included in the zip.
