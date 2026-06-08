@@ -15,6 +15,8 @@
 > 2. Onglet **Bêtas**
 > 3. Sélectionner **public-previous**
 
+<img width="1036" height="735" alt="Capture d&#39;écran 2026-06-07 141430" src="https://github.com/user-attachments/assets/c7357f91-189d-4bf3-8e71-31c7dcb39302" />
+
 ## 2. Télécharger un mod
 
 Les mods se trouvent sur :
