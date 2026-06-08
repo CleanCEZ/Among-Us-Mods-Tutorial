@@ -49,5 +49,5 @@ Pour désinstaller complètement BepInEx, supprime les fichiers et dossiers ajou
 - `doorstop_config.ini`
 - `winhttp.dll`
 
-**Si c'était un .zip :**
+**Si c'était un `.zip` **
 Supprime les fichiers et dossiers qui étaient compris dans celui-ci.
