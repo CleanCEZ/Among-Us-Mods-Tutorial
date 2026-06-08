@@ -17,6 +17,8 @@
 > 2. Go to the **Betas** tab
 > 3. Select **public-previous**
 
+<img width="1036" height="735" alt="Capture d&#39;écran 2026-06-07 141430" src="https://github.com/user-attachments/assets/4cc86d8b-67b2-4dc6-969b-324310b3940d" />
+
 ## 2. Download a mod
 
 Mods can be found on:
